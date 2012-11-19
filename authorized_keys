@@ -1,4 +1,2 @@
-ahmc and ahdc have now been replaced by the aht command which is hosting stage agnostic. Please update your client tools to the latest version if you haven't already to get the new aht command.
-
 
 Warning: Invalid argument supplied for foreach() in /vol/ebs1/ahsupport/support_bin/commands/support-keys on line 35
