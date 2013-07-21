@@ -3,7 +3,7 @@ Warning: file_get_contents(/mnt/tmp/thilliard/support-keys-repo/ip_whitelist): f
 
 Call Stack:
     0.0000     623208   1. {main}() /vol/ebs1/ahsupport/support_bin/ahtools:0
-    0.1700    2749864   2. command_dispatch() /vol/ebs1/ahsupport/support_bin/ahtools:7
+    0.1500    2749864   2. command_dispatch() /vol/ebs1/ahsupport/support_bin/ahtools:7
     0.2300    2850560   3. ahtools\Commands\aux\SupportKeys->run() /vol/ebs1/ahsupport/support_bin/includes/dispatcher.inc:234
     0.3000    3059952   4. file_get_contents() /vol/ebs1/ahsupport/support_bin/app/ahtools/Commands/aux/SupportKeys.php:23
 
