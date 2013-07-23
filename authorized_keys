@@ -2,8 +2,8 @@
 Warning: file_get_contents(/mnt/tmp/thilliard/support-keys-repo/ip_whitelist): failed to open stream: No such file or directory in /vol/ebs1/ahsupport/support_bin/app/ahtools/Commands/aux/SupportKeys.php on line 23
 
 Call Stack:
-    0.0100     623208   1. {main}() /vol/ebs1/ahsupport/support_bin/ahtools:0
-    0.1800    2749864   2. command_dispatch() /vol/ebs1/ahsupport/support_bin/ahtools:7
+    0.0000     623208   1. {main}() /vol/ebs1/ahsupport/support_bin/ahtools:0
+    0.1500    2749864   2. command_dispatch() /vol/ebs1/ahsupport/support_bin/ahtools:7
     0.3100    2850560   3. ahtools\Commands\aux\SupportKeys->run() /vol/ebs1/ahsupport/support_bin/includes/dispatcher.inc:234
     0.3400    3059952   4. file_get_contents() /vol/ebs1/ahsupport/support_bin/app/ahtools/Commands/aux/SupportKeys.php:23
 
