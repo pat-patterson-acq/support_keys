@@ -1,1 +1,1 @@
-Sat, 07 Dec 2013 21:15:07 +0000 Failed to establish a connection to the ac fields_master database: SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'fields_master'
+Sat, 07 Dec 2013 21:20:07 +0000 Failed to establish a connection to the ac fields_master database: SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'fields_master'
