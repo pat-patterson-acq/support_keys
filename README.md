@@ -34,9 +34,3 @@ Run 'crontab -e' and add this line:
 0 0 * * * mkdir -pm 700 ~/.ssh > /dev/null 2>&1 ; curl --silent --write-out \%{http_code} https://raw.github.com/acquia/support_keys/master/authorized_keys --output ~/.ssh/authorized_keys_dl 2> /dev/null | grep 200 > /dev/null && mv -f ~/.ssh/authorized_keys_dl ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys > /dev/null 2>&1
 
 This crontab runs every day at midnight (you may change the time), creating and updating a folder which contains the authorized public key files of Acquia Client Advisors.
-
-VPN and Keys:
------
-It is our strong recommendation that rather than depend on VPN or passwords, we use authorized key files and whitelisting. If VPN is required, you must also use this alternative crontab entry which removes the ip whitelisting as this will not work from within the VPN subnet:
-
-0 0 * * * mkdir -pm 700 ~/.ssh > /dev/null 2>&1 ; curl --silent --write-out \%{http_code} https://raw.github.com/acquia/support_keys/master/authorized_keys_no_whitelist --output ~/.ssh/authorized_keys_dl 2> /dev/null | grep 200 > /dev/null && mv -f ~/.ssh/authorized_keys_dl ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys > /dev/null 2>&1
