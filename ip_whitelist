@@ -1,18 +1,3 @@
 # Acquia IP Whitelist
 
-# US East
-107.0.255.128/27
-64.119.156.88/29
-64.119.149.232/29
-107.20.238.9/32
-
-# US West
-70.102.97.0/30
-50.196.16.184/29
-
-# EU
-46.137.113.132/32
-80.71.2.77/32
-
-# APAC
-54.252.90.180/32
+The most up to date IP listing can be found here: https://docs.acquia.com/network/manage/ipaddress
