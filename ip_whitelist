@@ -1,8 +1,8 @@
 # Acquia IP Whitelist
 
-The most up-to-date IP listing can be found here: https://docs.acquia.com/network/manage/ipaddress
+# The most up-to-date IP listing can be found here: https://docs.acquia.com/network/manage/ipaddress
+# The addresses below are provided for conveneince, but should be checked against the link above.
 
-The addresses below are provided for conveneince, but should be checked against the link above.
 # US East
 104.247.39.32/30
 199.188.233.64/29
