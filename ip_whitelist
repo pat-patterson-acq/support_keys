@@ -6,17 +6,14 @@
 # US East
 104.247.39.32/30
 40.130.238.136/30
-199.188.233.64/29
 
 # US West
 207.173.24.188/32
-70.102.97.0/30
-50.196.16.184/29
 
 # EU
 80.71.2.77/32
 
-# Toronto
+# Canada
 66.207.219.132/30
 
 # AWS servers (3 IPs; secured with multi-factor authentication)
