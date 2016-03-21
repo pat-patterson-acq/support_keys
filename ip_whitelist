@@ -1,7 +1,10 @@
 # Acquia IP Whitelist
 
-# The most up-to-date IP listing can be found here: https://docs.acquia.com/network/manage/ipaddress
-# The addresses below are provided for conveneince, but should be checked against the link above.
+# EDIT: 21 March 2016 - The old IP listing page may be found here: https://docsdev.network.acquia-sites.com/network/manage/ipaddress
+# The new page instructs users to contact Support for Acquia's IP addresses - presumably to prevent our IP addresses from being indexed by search engines
+# https://docs.acquia.com/network/access/ip-whitelist
+
+# Please verify that these IP addresses are valid; this page used to work on the assumoption that the public-facing docs.acquia.com page would have the most recent information.
 
 # US East
 104.247.39.32/30
